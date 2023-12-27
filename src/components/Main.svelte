@@ -52,11 +52,11 @@
             </a>
         </div>
 
-        <div class="relative shadow-3xl grid place-items-center lg:float-right">
+        <div class="relative grid place-items-center lg:float-right">
             <img
                 src={"images/pfp.png"}
                 alt="Profile Picture"
-                class="object-cover z-[2] max-h-[70vh] lg:float-right"
+                class="object-cover z-[2] max-h-[70vh] lg:float-right "
             />
         </div>
     </section>
