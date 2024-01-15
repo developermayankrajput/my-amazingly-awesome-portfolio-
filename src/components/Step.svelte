@@ -3,7 +3,7 @@
 </script>
 
 <a
-    href={step.href}
+    href={step.link}
     target="_blank"
     class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-slate-400 hover:border-orange-400-700 text-center cursor-pointer group hover:border-cyan-400 duration-200"
 >

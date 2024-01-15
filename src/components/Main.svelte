@@ -1,9 +1,9 @@
 <script>
     import Step from "./Step.svelte";
     let steps = [
-        { name: "lorem ipsum", icon: "fa-solid fa-cart-shopping" },
-        { name: "lorem ipsum", icon: "fa-solid fa-list-check" },
-        { name: "lorem ipsum", icon: "fa-diagram-project" },
+        { name: "Upai", icon: "fa-solid fa-comment",link:"https://github.com/mayank0rajput/Chat-Messenger" },
+        { name: "Saksham Digital", icon: "fa-solid fa-graduation-cap" ,link:"" },
+        { name: "ApplePie", icon: "fa-cloud" },
     ];
     let benefits = [
         {
@@ -27,12 +27,12 @@
 <main class="flex flex-col flex-1 p-4">
     <section
         id="introPage"
-        class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
+        class="grid grid-cols-1 lg:grid-cols-2 gap-5 py-8 sm:py-14 "
     >
         <div
-            class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
+            class="flex flex-col lg:justify-center text-left lg:ml-5 gap-6 md:gap-8 lg:gap-10"
         >
-            <h2 class="font-semibold text-4xl sm:tet-5xl md:text-6xl">
+            <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-cyan-400">Mayank</span>
                 Rajput <br />Software Engineer
                 <span class="poppins text-cyan-400"> Intern</span>
@@ -42,8 +42,8 @@
             </p>
             <a
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
-                href="#"
-                target="_blank"
+                href="#getintouch"
+
             >
                 <div
                     class="absolute top-0 right-full w-full h-full bg-cyan-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
@@ -52,12 +52,61 @@
             </a>
         </div>
 
-        <div class="relative grid place-items-center lg:float-right">
+        <div class="relative grid place-items-center sm:mx-auto md:mx-auto max-w-[50vw] ">
             <img
                 src={"images/pfp.png"}
                 alt="Profile Picture"
                 class="object-cover z-[2] max-h-[70vh] lg:float-right "
             />
+        </div>
+    </section>
+
+
+    <section id="introduction" class="py-20 lg:py-32 flex flex-col gap-24">
+        <div class="flex flex-col gap-2 text-center">
+            <h4 class="text-sky-300 font-semibold text-3xl sm:text-4xl md:text-5xl">
+                Introduction
+            </h4><br>
+            <h6><p class="text-xl sm:text-lg md:text-xl">
+                My name is Mayank Rajput. I am pre final year undergrad student at Oriental Institute of Science & Technology persuing Bachelors in Technology in Information Technology Branch.
+            </p> 
+            <div class="flex justify-center text-xl sm:text-lg md:text-xl">
+                <table class="border border-gray-300 rounded-md shadow-md p-4 m-4">
+                  <tr>
+                    <td class="font-semibold p-2">Programming Languages:</td>
+                    <td>
+                      <ul class="flex">
+                        <li>C++, Java, Kotlin, Python</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="font-semibold p-2" >Database:</td>
+                    <td>
+                      <ul class="flex">
+                        <li>SQLite (default Android database),MySQL,PostgreSQL</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="font-semibold p-2">Cloud Services:</td>
+                    <td>
+                      <ul class="flex">
+                        <li>Firebase Cloud (Realtime Database, Firestore, Cloud Functions, etc.)</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="font-semibold p-2">Skills:</td>
+                    <td>
+                      <ul class="flex">
+                        <li>Data Structures, Object Oriented Programming , Android Development </li>
+                      </ul>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </h6>
         </div>
     </section>
 
@@ -81,22 +130,24 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10 ">
             <Step step={steps[0]}>
                 <p>
-                    This project Lorem Ispum qeador <strong
-                    class="text-cyan-400">Firebase or highlighted</strong> bs ese hi paragraph bharna hai bhai.
+                    This project is an <strong
+                    class="text-cyan-400"> AI-ChatBot Android App </strong> which on trained on custom data and GPT AI Model . It used <strong
+                    class="text-cyan-400">Firebase Cloud</strong>, MeetCody.ai , REST APIs and Kotlin. 
                 </p>
+                <img src={"/images/upai.png"} />
             </Step>
             <Step step={steps[1]}>
-                <p>
-                    This project Lorem Ispum qeador <strong
-                        class="text-cyan-400">Firebase or highlighted</strong
-                    > bs ese hi paragraph bharna hai bhai.
+                <p>An <strong
+                    class="text-cyan-400"> E-Learn Android App </strong> which provided students recorded lectures to study remotely. This application used FireBase Cloud Database and <strong
+                        class="text-cyan-400">Youtube API</strong
+                    > to play videos.
                 </p>
+                <img src={"/images/saksham.png"} />
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    This project Lorem Ispum qeador <strong
-                        class="text-cyan-400">Firebase or highlighted</strong
-                    > bs ese hi paragraph bharna hai bhai.
+                    ApplePie is an E-Commerce Android App which which is used to order grocery.  We will use <strong class="text-cyan-400"> Apache Kafka , WebRTC </strong
+                    >and Kotlin here. This project is currently under development.
                 </p>
             </Step>
         </div>
