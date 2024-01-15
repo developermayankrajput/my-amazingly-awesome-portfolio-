@@ -52,7 +52,7 @@
             </a>
         </div>
 
-        <div class="relative grid place-items-center sm:mx-auto md:mx-auto max-w-[50vw] ">
+        <div class="relative grid place-items-center  lg:float-right ">
             <img
                 src={"images/pfp.png"}
                 alt="Profile Picture"
