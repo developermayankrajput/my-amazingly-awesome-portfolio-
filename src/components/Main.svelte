@@ -12,14 +12,14 @@
                 "Solved over 50 problems on data strictures and algoritms on various platforms like LeetCode, Hackerrank and Coding Ninjas.",
         },
         {
-            name: "self taught developer",
+            name: "self taught programmer",
             description:
                 "Learned the skills of LEARNING before Android Development in Kotlin with Firebase Database and REST API.",
         },
         {
-            name: "gibberish",
+            name: "passionate developer",
             description:
-                "Solved over 50 problems on data strictures and algoritms on various platforms like LeetCode, Hackerrank and Coding Ninjas.",
+                "Loves to create something and work on projects for hours",
         },
     ];
 </script>
